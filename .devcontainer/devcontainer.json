@@ -1,15 +1,15 @@
 {
-  "name": "Codespace for Skills!",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "GitHub.copilot",
-        "GitHub.copilot-chat",
-        "HashiCorp.terraform"
-      ]
-    }
-  },
-  "features": {
-    "ghcr.io/devcontainers/features/azure-cli:1": {}
-  }
+    "name": "Codespace for Skills!",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "HashiCorp.terraform"
+            ]
+        }
+    },
+   "features": {
+       "ghcr.io/devcontainers/features/azure-cli:1": {}
+   }
 }
