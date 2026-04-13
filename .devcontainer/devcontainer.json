@@ -1,19 +1,15 @@
 {
-    "name": "Codespace for Skills!",
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
-
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "GitHub.copilot",
-                "hashicorp.terraform"
-            ]
-        }
-    },
-
-    "features": {
-        "ghcr.io/devcontainers/features/azure-cli:1": {}
-    },
-
-    "postCreateCommand": "sudo rm -f /etc/apt/sources.list.d/yarn.list && curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add - && sudo apt-add-repository \"deb https://apt.releases.hashicorp.com $(lsb_release -cs) main\" && sudo apt-get update && sudo apt-get install -y terraform"
+  "name": "Codespace for Skills!",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "HashiCorp.terraform"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/azure-cli:1": {}
+  }
 }
